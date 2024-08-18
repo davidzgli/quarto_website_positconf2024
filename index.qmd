@@ -1,0 +1,55 @@
+---
+title: "David"
+subtitle: "Data Scientist"
+date: today
+date-format: full
+# `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
+# image: profile.jpg
+image: david_maplepath_2018.jpg
+about: # https://quarto.org/docs/websites/website-about.html
+  # id: hero-heading
+  # template: jolla
+  template: solana
+  image-width: 6em
+  links:
+    - icon: github
+    # - icon: flag-fill
+      text: Github
+      href: https://github.com/davidzgli
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/zhiguang-li-8117b453
+---
+
+## About
+
+I am a data scientist at NIH. Currently, I am studying the DNA methylation changes in blood samples of old populations. I am also interested in machine learning and data visualization.
+
+<!-- :::{#hero-heading} -->
+
+## Education
+
+
+Wuhan University, Wuhan \| Hubei \| Sept 1994 - June 1998.
+
+Fudan University, Shanghai \| Shanghai \| Sept 1998 - June 2001.
+
+CAS, Beijing \| Sept 2004 - June 2008.
+
+
+## Experience
+
+**LEPS**, National Institute on Aging \| Staff Scientist \| April 2020 - present
+
+<!-- ::: -->
+
+### The following is a test
+
+{{< placeholder 400 200 >}}
+
+{{< lipsum 1 >}}
+
+{{< placeholder 400 100 format=svg >}}
+
+{{< lipsum 2 >}}
+

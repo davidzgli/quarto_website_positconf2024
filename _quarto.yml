@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Home_Page"
+  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
+  page-footer: "Made with ❤️ and Quarto"
+  navbar:
+    right:
+      - text: Profile
+        href: index.qmd
+      
+format:
+  html:
+    # theme: [cosmo, styles.scss]
+    # theme: united
+    # theme: Sandstone
+    theme: 
+     - cosmo
+     - styles.scss
+    fontsize: 1.2em
+    linestretch: 2.5
+    backgroundcolor: rgb(155, 155, 155)
+

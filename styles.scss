@@ -1,0 +1,30 @@
+/*-- scss:defaults --*/
+
+// Sass Variables
+// https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+
+/* Colors */
+$body-bg: #FFFFFF;
+$body-color: rgb(55, 58, 60);
+$link-color: rgb(39, 128, 227);
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+// $headings-font-weight:  200 !important;
+// $headings-color:  blue !default;
+$headings-color:  black;
+// $navbar-bg: rgba(0, 0, 0, .3);
+// $gray-700 needs to be defined in the theme even if it is already defined in the default theme
+// as shown at https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss.
+// This is because the default theme is not loaded when the theme is loaded as explained at
+// https://quarto.org/docs/output-formats/html-themes-more.html
+$gray-700: #495057 !default; 
+$navbar-bg: $gray-700 !default;
+
+/* Fonts */
+$font-family-sans-serif: "Source Sans Pro", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, .3);
+}
