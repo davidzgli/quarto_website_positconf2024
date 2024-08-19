@@ -30,11 +30,11 @@ I am a data scientist at NIH. Currently, I am studying the DNA methylation chang
 ## Education
 
 
-Wuhan University, Wuhan \| Hubei \| Sept 1994 - June 1998.
+Wuhan University, Wuhan    \| Hubei    \| Sept 1994 - June 1998.
 
 Fudan University, Shanghai \| Shanghai \| Sept 1998 - June 2001.
 
-CAS, Beijing \| Sept 2004 - June 2008.
+CAS, Beijing               \| Beijing  \| Sept 2004 - June 2008.
 
 
 ## Experience

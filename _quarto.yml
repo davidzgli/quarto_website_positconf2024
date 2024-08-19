@@ -20,6 +20,6 @@ format:
      - cosmo
      - styles.scss
     fontsize: 1.2em
-    linestretch: 2.5
-    backgroundcolor: rgb(155, 155, 155)
+    linestretch: 1.2
+    backgroundcolor: rgb(250, 250, 250)
 
