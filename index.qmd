@@ -19,6 +19,8 @@ about: # https://quarto.org/docs/websites/website-about.html
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/zhiguang-li-8117b453
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## About
@@ -42,6 +44,25 @@ CAS, Beijing               \| Beijing  \| Sept 2004 - June 2008.
 **LEPS**, National Institute on Aging \| Staff Scientist \| April 2020 - present
 
 <!-- ::: -->
+
+## Scatter plot from mtcars dataset
+
+```{r}
+#| fig.height: 4
+#| fig.width: 6
+
+
+library(ggplot2)
+ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(cyl))) +
+  geom_point()
+```
+
+## Table
+
+```{r}
+head(mtcars)
+```
+
 
 ### The following is a test
 

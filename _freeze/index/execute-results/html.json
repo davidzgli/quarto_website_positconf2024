@@ -1,0 +1,17 @@
+{
+  "hash": "6770a9b1606487f9bfd982f1b0afe38e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"David\"\nsubtitle: \"Data Scientist\"\ndate: today\ndate-format: full\n# `profile.jpg` photo by Jan Tinneberg on https://unsplash.com\n# image: profile.jpg\nimage: david_maplepath_2018.jpg\nabout: # https://quarto.org/docs/websites/website-about.html\n  # id: hero-heading\n  # template: jolla\n  template: solana\n  image-width: 6em\n  links:\n    - icon: github\n    # - icon: flag-fill\n      text: Github\n      href: https://github.com/davidzgli\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/in/zhiguang-li-8117b453\neditor_options: \n  chunk_output_type: console\n---\n\n\n\n\n## About\n\nI am a data scientist at NIH. Currently, I am studying the DNA methylation changes in blood samples of old populations. I am also interested in machine learning and data visualization.\n\n<!-- :::{#hero-heading} -->\n\n## Education\n\n\nWuhan University, Wuhan    \\| Hubei    \\| Sept 1994 - June 1998.\n\nFudan University, Shanghai \\| Shanghai \\| Sept 1998 - June 2001.\n\nCAS, Beijing               \\| Beijing  \\| Sept 2004 - June 2008.\n\n\n## Experience\n\n**LEPS**, National Institute on Aging \\| Staff Scientist \\| April 2020 - present\n\n<!-- ::: -->\n\n## Scatter plot from mtcars dataset\n\n\n\n\n::: {.cell layout-align=\"center\"}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nggplot(mtcars, aes(x = wt, y = mpg, colour = factor(cyl))) +\n  geom_point()\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){fig-align='center' width=576}\n:::\n:::\n\n\n\n\n## Table\n\n\n\n\n::: {.cell layout-align=\"center\"}\n\n```{.r .cell-code}\nhead(mtcars)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n```\n\n\n:::\n:::\n\n\n\n\n\n### The following is a test\n\n\n\n\n{{< placeholder 400 200 >}}\n\n\n{{< lipsum 1 >}}\n\n\n{{< placeholder 400 100 format=svg >}}\n\n\n{{< lipsum 2 >}}\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
