@@ -57,10 +57,16 @@ ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(cyl))) +
   geom_point()
 ```
 
-## Table
+## Table 1
 
 ```{r}
 head(mtcars)
+```
+
+## Table 2
+
+```{r}
+head(airquality)
 ```
 
 
