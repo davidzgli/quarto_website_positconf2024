@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://davidzgli.github.io/quarto_website_positconf2024/index.html</loc>
-    <lastmod>2024-08-20T21:03:30.693Z</lastmod>
+    <lastmod>2024-08-23T21:33:15.758Z</lastmod>
   </url>
   <url>
-    <loc>https://davidzgli.github.io/quarto_website_positconf2024/talk.html</loc>
-    <lastmod>2024-08-23T20:40:45.250Z</lastmod>
+    <loc>https://davidzgli.github.io/quarto_website_positconf2024/talks.html</loc>
+    <lastmod>2024-08-23T21:28:56.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://davidzgli.github.io/quarto_website_positconf2024/projects/index.html</loc>
+    <lastmod>2024-08-16T22:45:08.252Z</lastmod>
   </url>
 </urlset>
